@@ -18,9 +18,9 @@ root.render(
     <>
         <h1 onClick={h1_onclick} id="heading">Basic HTML</h1>
         <div onClick={div_onclick} id="main">
-            <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> A, adipisci aliquam cum ea earum
-                eligendi est et,
-                ipsum pariatur qui quia, quo quos repellat repellendus sunt ut velit. <em>Dolor, vel.</em></p>
+            <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong>
+                A, adipisci aliquam cum ea earum eligendi est et, ipsum pariatur qui quia,
+                quo quos repellat repellendus sunt ut velit. <em>Dolor, vel.</em></p>
             <img src={robot} alt="robot" width="200"/>
         </div>
     </>
