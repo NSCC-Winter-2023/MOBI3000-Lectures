@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+div.App > h1 {
+  text-align: right;
+  background-color: black;
+  color: cyan;
+  margin: 10px 50px;
+  padding: 0 10px;
+}
+
+div.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+}

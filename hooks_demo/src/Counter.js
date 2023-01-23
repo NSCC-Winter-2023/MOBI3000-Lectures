@@ -26,14 +26,11 @@ function Counter({countBy}) {
     // component unmounts or when the dependency list
     // changes
     useEffect(() => {
-        let t = undefined;
         if (timer) {
-            t = setInterval(() => {
+            const t = setInterval(() => {
                 setCount(prev => prev + countBy);
             }, 1000);
             return () => clearInterval(t);
-        } else {
-            clearInterval(t);
         }
     }, [countBy, timer]);
 
